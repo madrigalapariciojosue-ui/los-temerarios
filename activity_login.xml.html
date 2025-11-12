@@ -1,0 +1,162 @@
+<html>
+<head>
+<title>activity_login.xml</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #e8bf6a;}
+.s1 { color: #bababa;}
+.s2 { color: #6a8759;}
+.s3 { color: #a9b7c6;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+activity_login.xml</font>
+</center></td></tr></table>
+<pre><span class="s0">&lt;?</span><span class="s1">xml version</span><span class="s2">=&quot;1.0&quot; </span><span class="s1">encoding</span><span class="s2">=&quot;utf-8&quot;</span><span class="s0">?&gt;</span>
+<span class="s0">&lt;androidx.constraintlayout.widget.ConstraintLayout</span>
+    <span class="s1">xmlns:android</span><span class="s2">=&quot;http://schemas.android.com/apk/res/android&quot;</span>
+    <span class="s1">xmlns:app</span><span class="s2">=&quot;http://schemas.android.com/apk/res-auto&quot;</span>
+    <span class="s1">xmlns:tools</span><span class="s2">=&quot;http://schemas.android.com/tools&quot;</span>
+    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+    <span class="s1">android:layout_height</span><span class="s2">=&quot;match_parent&quot;</span>
+    <span class="s1">android:background</span><span class="s2">=&quot;#FFFFFF&quot;</span>
+    <span class="s1">tools:context</span><span class="s2">=&quot;.activity_login&quot;</span><span class="s0">&gt;</span>
+
+    <span class="s0">&lt;ImageView</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/backArrow&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;51dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;35dp&quot;</span>
+        <span class="s1">android:layout_marginStart</span><span class="s2">=&quot;8dp&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;16dp&quot;</span>
+        <span class="s1">android:clickable</span><span class="s2">=&quot;true&quot;</span>
+        <span class="s1">android:focusable</span><span class="s2">=&quot;true&quot;</span>
+        <span class="s1">android:src</span><span class="s2">=&quot;@drawable/flecha&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s2">=&quot;parent&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;TextView</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/loginTitle&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;180dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;32dp&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;68dp&quot;</span>
+        <span class="s1">android:gravity</span><span class="s2">=&quot;center&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;Inicio de sesión&quot;</span>
+        <span class="s1">android:textColor</span><span class="s2">=&quot;#0A2D52&quot;</span>
+        <span class="s1">android:textSize</span><span class="s2">=&quot;24sp&quot;</span>
+        <span class="s1">android:textStyle</span><span class="s2">=&quot;bold&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s2">=&quot;parent&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;TextView</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/emailLoginButton&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;348dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;55dp&quot;</span>
+        <span class="s1">android:layout_marginStart</span><span class="s2">=&quot;32dp&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;68dp&quot;</span>
+        <span class="s1">android:layout_marginEnd</span><span class="s2">=&quot;32dp&quot;</span>
+        <span class="s1">android:background</span><span class="s2">=&quot;#0A2D52&quot;</span>
+        <span class="s1">android:clickable</span><span class="s2">=&quot;true&quot;</span>
+        <span class="s1">android:focusable</span><span class="s2">=&quot;true&quot;</span>
+        <span class="s1">android:fontFamily</span><span class="s2">=&quot;serif-monospace&quot;</span>
+        <span class="s1">android:gravity</span><span class="s2">=&quot;center&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;Inicia sesión con tu correo&quot;</span>
+        <span class="s1">android:textAlignment</span><span class="s2">=&quot;center&quot;</span>
+        <span class="s1">android:textColor</span><span class="s2">=&quot;#F6F084&quot;</span>
+        <span class="s1">android:textSize</span><span class="s2">=&quot;16sp&quot;</span>
+        <span class="s1">android:textStyle</span><span class="s2">=&quot;bold&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toBottomOf</span><span class="s2">=&quot;@+id/loginTitle&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;TextView</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/phoneLoginButton&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;348dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;55dp&quot;</span>
+        <span class="s1">android:layout_marginStart</span><span class="s2">=&quot;32dp&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;40dp&quot;</span>
+        <span class="s1">android:layout_marginEnd</span><span class="s2">=&quot;32dp&quot;</span>
+        <span class="s1">android:background</span><span class="s2">=&quot;#CCCCCC&quot;</span>
+        <span class="s1">android:clickable</span><span class="s2">=&quot;true&quot;</span>
+        <span class="s1">android:focusable</span><span class="s2">=&quot;true&quot;</span>
+        <span class="s1">android:fontFamily</span><span class="s2">=&quot;serif-monospace&quot;</span>
+        <span class="s1">android:gravity</span><span class="s2">=&quot;center&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;Iniciar sesión con teléfono&quot;</span>
+        <span class="s1">android:textAlignment</span><span class="s2">=&quot;center&quot;</span>
+        <span class="s1">android:textColor</span><span class="s2">=&quot;#020d18&quot;</span>
+        <span class="s1">android:textSize</span><span class="s2">=&quot;16sp&quot;</span>
+        <span class="s1">android:textStyle</span><span class="s2">=&quot;bold&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toBottomOf</span><span class="s2">=&quot;@+id/emailLoginButton&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;TextView</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/separatorText&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;167dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;26dp&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;100dp&quot;</span>
+        <span class="s1">android:background</span><span class="s2">=&quot;#FFFFFF&quot;</span>
+        <span class="s1">android:paddingStart</span><span class="s2">=&quot;8dp&quot;</span>
+        <span class="s1">android:paddingEnd</span><span class="s2">=&quot;8dp&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;O inicia sesión con&quot;</span>
+        <span class="s1">android:textAlignment</span><span class="s2">=&quot;center&quot;</span>
+        <span class="s1">android:textColor</span><span class="s2">=&quot;#000000&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toBottomOf</span><span class="s2">=&quot;@+id/phoneLoginButton&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;View</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/leftLine&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;0dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;1dp&quot;</span>
+        <span class="s1">android:layout_marginEnd</span><span class="s2">=&quot;8dp&quot;</span>
+        <span class="s1">android:background</span><span class="s2">=&quot;#000000&quot;</span>
+        <span class="s1">android:rotationX</span><span class="s2">=&quot;305&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s2">=&quot;@+id/separatorText&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toStartOf</span><span class="s2">=&quot;@+id/separatorText&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s2">=&quot;@+id/separatorText&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;View</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/rightLine&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;0dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;1dp&quot;</span>
+        <span class="s1">android:background</span><span class="s2">=&quot;#000000&quot;</span>
+        <span class="s1">app:layout_constraintStart_toEndOf</span><span class="s2">=&quot;@+id/separatorText&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s2">=&quot;@+id/separatorText&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s2">=&quot;@+id/separatorText&quot;</span>
+        <span class="s1">android:layout_marginStart</span><span class="s2">=&quot;8dp&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;ImageView</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/googleLoginButton&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;78dp&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;71dp&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;52dp&quot;</span>
+        <span class="s1">android:clickable</span><span class="s2">=&quot;true&quot;</span>
+        <span class="s1">android:contentDescription</span><span class="s2">=&quot;Iniciar sesión con Google&quot;</span>
+        <span class="s1">android:focusable</span><span class="s2">=&quot;true&quot;</span>
+        <span class="s1">android:src</span><span class="s2">=&quot;@drawable/google&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintTop_toBottomOf</span><span class="s2">=&quot;@+id/separatorText&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;TextView</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/registerText&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+
+        <span class="s1">android:text</span><span class="s2">=&quot;¿No tienes una cuenta? regístrate aquí&quot;</span>
+        <span class="s1">android:textColor</span><span class="s2">=&quot;#298042&quot;</span>
+        <span class="s1">android:textSize</span><span class="s2">=&quot;14sp&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintStart_toStartOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintEnd_toEndOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">android:layout_marginBottom</span><span class="s2">=&quot;40dp&quot; </span><span class="s0">/&gt;</span>
+
+<span class="s0">&lt;/androidx.constraintlayout.widget.ConstraintLayout&gt;</span></pre>
+</body>
+</html>
